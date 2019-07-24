@@ -1,2 +1,4 @@
 <h1>这是主页</h1>
-{{gallerys}}
+{% for gallery in gallerys.all %}
+{{ gallery.miaoshu }}
+{% endfor %}
